@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeebanPari-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Deeban Chakravarthi Pari</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+    <div class="logo">Deeban Chakravarthi Pari</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contect" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Convacation_Photo.jpg" alt="Deeban Pari Profile Picture">
+        </div>
+        <div class="section_text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Deeban Chakravarthi Pari</h1>
+            <p class="section__text__p2">DOT NET Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Deeban_Chakravarthi_Pari.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="icon" onclick="window.open('https://linkedin.com/in/deeban-chakravarthi-aaa964232', '_blank')">
+                <img src="./assets/github.png" alt="GitHub Profile" class="icon" onclick="window.open('https://github.com/Deeban-Pari', '_blank')">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic__container">
+                <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience Icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>1+ years <br/>DOT NET Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Master of Software Engineering (Integrated 5-year Program)<br/>
+                            Vellore Institute of Technology (VIT), Vellore<br/>
+                            Graduated: [06, 2023]<br/>
+                            CGPA: 8.6
+                        </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> I pursued a comprehensive Master's program at VIT Vellore, 
+                        specializing in Software Engineering. 
+                        This integrated 5-year course equipped me with a deep 
+                        understanding of advanced software development concepts 
+                        and technologies. Achieving a CGPA of 8.6, I not only gained
+                        theoretical knowledge but also honed practical skills 
+                        through hands-on projects and industry-oriented coursework. 
+                        This academic journey has been instrumental in shaping my 
+                        expertise and passion for software engineering.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets//arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">DOT NET Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>.NET CORE MVC</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experinece Icon" class="icon">
+                            <div>
+                                <h3>jQuery</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets//arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project-1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Deeban-Pari', '_blank')">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Deeban-Pari', '_blank')">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="Project-2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Deeban-Pari', '_blank')">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Deeban-Pari', '_blank')">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            </div>
+            <!-- <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="Project-1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="button-container">
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Deeban-Pari', '_blank')">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Deeban-Pari', '_blank')">
+                        Live Demo
+                    </button>
+                </div>
+            </div> -->
+        </div>
+        <img src="./assets//arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+            <p><a href="mailto:deebanpari2001@gmail.com">deebanpari2001@gmail.com</a></p>    
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="icon contact-icon" onclick="window.open('https://linkedin.com/in/deeban-chakravarthi-aaa964232', '_blank')">
+            <p><a href="https://linkedin.com/in/deeban-chakravarthi-aaa964232">LinkedIn</a></p>
+            
+        </div>
+    </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Deeban Chakravarthi Pari. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
